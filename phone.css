@@ -1,0 +1,31 @@
+.headname{
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    text-shadow: 1px 1px 3px rgb(87, 86, 86);
+}
+.container h1{
+    font-weight: 900;
+    color:rgb(255, 217, 159);
+    text-shadow: 3px 3px 5px black;
+    font-size: 27px;
+}
+.logos img{
+    width:600px;
+}
+.container{
+    height:460px;
+}
+.logos{
+    height:700px;
+}
+.navbar{
+    height:90px;
+}
+.miss{
+    font-size: 22px;
+}
+.absa{
+    font-size: 22px;
+}

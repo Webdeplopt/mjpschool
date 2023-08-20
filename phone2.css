@@ -1,0 +1,30 @@
+.container{
+    line-height: 37px;
+}
+.container p{
+    font-size: 21px;
+}
+.logos img{
+    width:300px;
+}
+.logos{
+    height:330px;
+}
+.headname{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgb(87, 86, 86);
+}
+.slider1{
+    font-size: 16px;
+    width:700px;
+    position: relative;
+    animation:animate 9s linear infinite;
+    color: white;
+    
+}
+.container{
+    height:380px;
+}

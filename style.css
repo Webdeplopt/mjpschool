@@ -1,0 +1,141 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+
+.static{
+    background: url("milad-fakurian-nY14Fs8pxT8-unsplash.jpg")no-repeat center center/cover;
+    width:100%;
+    height:650px;
+    z-index: -10;
+    position: fixed;
+
+}
+.navbar{
+    height:70px;
+    width:100%;
+    position: relative;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 30px;
+}
+.navbar img{
+    height:60px;
+}
+.headname{
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    text-shadow: 1px 1px 3px rgb(87, 86, 86);
+}
+.slider{
+    width:100%;
+    display:flex;
+    align-items: center;
+    height:50px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.slider1{
+    font-size: 25px;
+    width:700px;
+    position: relative;
+    animation:animate 9s linear infinite;
+    color: white;
+    
+}
+@keyframes animate{
+    0%{
+        left:-700px;
+    }
+    100%{
+        left:100%;
+    }
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:520px;
+    flex-direction: column;
+    
+    line-height: 65px;
+    font-family: sans-serif;
+    background-color: transparent;
+    text-align: center;
+    
+}
+.container h1{
+    font-weight: 900;
+    color:rgb(255, 217, 159);
+    text-shadow: 3px 3px 5px black;
+    font-size: 40px;
+}
+.container p{
+    color:white;
+    font-size: 27px;
+    font-family: cursive;
+    text-shadow: 0 0 5px black;
+}
+.container h2 {
+    color:white;
+    text-decoration: none;
+    background-color: orange;
+    width:300px;
+    height:48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+.container h2:hover{
+    background-color: rgb(255, 51, 0);
+}
+.container h2 a{
+    text-decoration: none;
+    color:white;
+}
+.logos{
+    height:900px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.logos img{
+    width:900px;
+}
+.miss{
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    color:rgb(0, 0, 148);
+    background-color: white;
+}
+.build{
+    width:100%;
+    position: relative;
+    /* height:400px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.build img{
+    width: 100%;
+}
+.absa{
+    position: absolute;
+    font-size: 45px;
+    font-weight: 800;
+    font-family: system-ui;
+    color:white;
+    text-shadow: 3px 3px 14px black;
+    
+}

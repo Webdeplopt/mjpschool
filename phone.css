@@ -22,10 +22,52 @@
 }
 .navbar{
     height:90px;
+    padding:0px 23px;
 }
 .miss{
     font-size: 22px;
 }
 .absa{
     font-size: 22px;
+}
+.fast2{
+    text-align: center;
+    height:40px;
+    font-size: 30px;
+    font-family: system-ui;
+    user-select: none;
+}
+.fast h1{
+    font-size: 60px;
+    line-height: 100px;
+    color:rgb(17, 0, 255);
+    font-family: sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px 10px black;
+    user-select: none;
+}
+
+.container h2 {
+    color:white;
+    text-decoration: none;
+    background-color: orange;
+    width:280px;
+    height:48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    user-select: none;
+}
+.container h2 a{
+    text-decoration: none;
+    color:white;
+}
+.slider1{
+    font-size: 20px;
+    width:700px;
+    position: relative;
+    animation:animate 9s linear infinite;
+    color: white;
+    user-select: none;
 }

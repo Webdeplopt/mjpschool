@@ -22,6 +22,7 @@
     align-items: center;
     justify-content: space-between;
     padding:0px 30px;
+    
 }
 .navbar img{
     height:60px;
@@ -134,6 +135,7 @@
 }
 .build img{
     width: 100%;
+    
 }
 .absa{
     position: absolute;
@@ -226,4 +228,42 @@
     color:white;
     font-family: sans-serif;
     padding:20px 30px;
+}
+
+  /* jkhuihk */
+  #box{
+    border:1px solid transparent;
+    height:45px;
+    width:45px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+.lon{
+    width:70%;
+    height:4px;
+    margin:auto;
+    background-color: black;
+    position: relative;
+    transition: all;
+    transition-duration: 1s;
+    border:black;
+    border-radius: 3px;
+}
+.wel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.welc{
+    font-size: 100px;
+    font-family: system-ui;
+    font-weight: 800;
+    text-shadow: 0 0 20px black,
+                 0 0 40px black;
+    color:rgb(255, 111, 28);
 }
